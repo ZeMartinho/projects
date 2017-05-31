@@ -1,0 +1,10 @@
+In the autograder, I seem to be failing tests 03, 05 and 08 of trip only when my graph package is being used.
+
+When the staff graph package is used, my Trip.java program is fine.
+
+This is due to a NullPointerException when I call getWeight due setPaths(). In tests 01, 02 and 04,
+this exception does not occur. It is only when I am dealing with large graphs that I get a NullPointerException
+attempting to access a label. In tests 03 and 08, this exception is raised very late into my setPaths() algorithm.
+In test05, it is raised earlier.
+
+Thank you!!

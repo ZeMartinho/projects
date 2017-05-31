@@ -1,0 +1,30 @@
+java -ea ataxx.Main
+#A test to force a draw between two AIs.
+seed 779941
+load test10.in
+auto red
+start
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Red moves ..-..\.
+@?Blue moves ..-..\.
+@?Draw.
+dump
+@<===
+@<  r r X X X b b
+@<  r r X X X b b
+@<  X X X X X X X
+@<  X X X X X X X
+@<  X X X X X X X
+@<  b b X X X r r
+@<  b b X X X r r
+@<===
+quit

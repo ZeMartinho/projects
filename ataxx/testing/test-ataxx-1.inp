@@ -1,0 +1,17 @@
+# An integration test for the case described in the lab.
+java -ea ataxx.Main
+load test-ataxx-1-board.in
+d4-f4
+a7-a8
+d4-d2
+dump
+@<===
+@<  r - - - - - b
+@<  - - - b - - -
+@<  - - b b b - -
+@<  - b b - b b -
+@<  - - r r r - -
+@<  - - - r - - -
+@<  b - - - - - r
+@<===
+quit

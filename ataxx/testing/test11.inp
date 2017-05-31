@@ -1,0 +1,6 @@
+#Testing a simple winning setup.
+java -ea ataxx.Main
+load test11.in
+b7-d6
+@?Red wins.
+quit

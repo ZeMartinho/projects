@@ -1,0 +1,16 @@
+L Cafe 0.0 0.0
+L Lounge -1000.0 50.0
+L Street 100.0 600.0
+L Taco_Bell -590.0 -900.0
+L S1 1.0 7.0
+L S2 6.0 8.0
+L S3 15.9 18.5
+L S4 5.4 5.5
+
+R Cafe r1 0.1 EW S1
+R Cafe r2 8.8 NS Lounge
+R Lounge r3 0.4 EW S1
+R S1 r4 0.9 EW Taco_Bell
+R S2 r5 0.1 EW S1
+R S2 r6 0.1 NS Taco_Bell
+R S2 r7 0.1 EW Street
